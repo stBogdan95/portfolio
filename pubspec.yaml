@@ -1,0 +1,23 @@
+name: my_portfolio
+description: My portfolio website
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+fonts:
+  - family: Roboto
+    fonts:
+      - asset: web/fonts/Rubik-Bold.ttf
+      - asset: web/fonts/Rubik-Italic.ttf
+      - asset: web/fonts/Rubik-Medium.ttf
+      - asset: web/fonts/Rubik-Regular.ttf
